@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+    background: #fff;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 13.6rem 70rem;
+
+}
+
+/* Menu Bar */
+
+.contentBar{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    width: 95vw;
+    /* border: 1px solid black; */
+    margin: 0 1.5rem 0 1.5rem;
+}
+.menuBar{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.seachBar{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 23rem;
+    height: 2.5rem;
+    gap: 1rem;
+}
+.seachBar input{
+    width: 21.75rem;
+    height: 2.5rem;
+}
+.perfilBar{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.perfilClient{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: #198f51;
+}
+/* Area 1 */
+.contentA1{
+    /* border: 1px solid blue; */
+    margin: 1.5rem 1.5rem 0 1.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1.38rem;
+}
+/* Area 2 */
+.contentA2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: start;
+    align-items: start;
+    /* border: 1px solid blue; */
+    margin: 1.5rem 0 1.5rem;
+}
+.videosItems{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 17.6rem;
+    height: 16.3rem;
+}
+.titleVideo{
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.containerVideo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+}
+.containerVideo img{
+    margin: 0 0.62rem 0 0.62rem;
+}
+.infor{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.62rem;
+}
+.inforVideo{
+    color: #515151;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
